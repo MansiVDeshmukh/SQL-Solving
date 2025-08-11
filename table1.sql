@@ -1,0 +1,14 @@
+CREATE DATABASE IF NOT EXISTS Students;
+USE Students;
+CREATE TABLE IF NOT EXISTS Ss(
+ID INT PRIMARY KEY,
+Name VARCHAR(50)
+);
+INSERT INTO Ss
+(ID,NAME)
+ VALUES
+ (1,"mansi"),
+ (2,"Manasvi"),
+ (3,"Sanika");
+
+SELECT *FROM Ss;
